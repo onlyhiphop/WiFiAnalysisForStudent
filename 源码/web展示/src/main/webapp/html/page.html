@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        
+    </style>
+    <link rel="stylesheet" href="../css/page.css">
+    <link rel="stylesheet" type="text/css" href="../css/page2.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="left-nav-wra">
+            <ul class="left-nav">
+                <li class="checked">学生月数据分析</li>
+                <li>学生画像</li>
+            </ul>
+        </div>
+        <div class="content-wra">
+            <div class="search-input-wra">
+                <div class="number-search">
+                    <input type="text" placeholder="输入学号">
+                    <button>搜索</button>
+                </div>
+                <div class="time-search">
+                    
+                    <select name="" id="year">
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+
+                    </select>
+                    <select name="" id="month">
+                        <option value="Jan">1月</option>
+                        <option value="Feb">2月</option>
+                        <option value="Mar">3月</option>
+                        <option value="Apr">4月</option>
+                        <option value="May">5月</option>
+                        <option value="Jun">6月</option>
+                        <option value="Jul">7月</option>
+                        <option value="Aug">8月</option>
+                        <option value="Sep">9月</option>
+                        <option value="Oct">10月</option>
+                        <option value="Nov">11月</option>
+                        <option value="Dec">12月</option>
+
+                    </select>
+                    <button>搜索</button>
+                </div>
+            </div>
+            <div class="content">
+
+                <div class="chart-box now-box" id="chart-box">
+                    <div class="box1"></div>
+                    <div class="box2"></div>
+
+                    <div class="box3"></div>
+                    <div class="box4"></div>
+                    <div class="box5"></div>
+                </div>
+                <div class="chart-box1 right-box" id="chart-box1">
+                    <div class="stu_left">
+                        <div class="stu_image"></div>
+                        <div class="stu_info">
+                            <div class="stu_info_title">
+                                <p><b>基本信息 ——————</b></p>
+                            </div>
+                            <div class="stu_info_content">
+                                <p>姓名:&nbsp;&nbsp;<span id="u_name"></span></p>
+                                <p>学号:&nbsp;&nbsp;<span id="u_id"></span></p>
+                                <p>联系电话:&nbsp;&nbsp;<span id="u_phone"></span></p>
+                                <b><p>消费能力综合评估为:&nbsp;&nbsp;<span id="u_consume"></span></p></b>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="stu_right">
+                        <div class="stu_img">
+                            <b><p>技能特长分析&nbsp;————————————————————————</p></b>
+                            <div class="img_box1">
+                                
+                            </div>
+                            <b><p>最爱待的地方&nbsp;————————————————————————</p></b>
+                            <div class="img_box2">
+                                
+                            </div>
+                            <b><p>常出现的地方&nbsp;————————————————————————</p></b>
+                            <div class="img_box3">
+                                
+                            </div>
+                            <b><p>手机活跃时间&nbsp;————————————————————————</p></b>
+                            <div class="img_box4">
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../js/jquery-3.3.1.js"></script>
+    <script src="../js/echarts.common.min.js"></script>
+    <script src="../js/page.js"></script>
+</body>
+
+</html>

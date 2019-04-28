@@ -1,0 +1,50 @@
+
+.stu_left{
+    width: 30%;
+    height: 100%;
+    background: #254665;
+}
+.stu_right{
+    width: 70%;
+    height: 100%;
+}
+.stu_image{
+    margin: 30px auto;
+    width: 60%;
+    height: 40%;
+    background: url('../img/designer.jpg') no-repeat;
+}
+.stu_info{
+    margin: 30px auto;
+    width: 80%;
+    height: 45%;
+}
+.stu_info p{
+    color: #e8e8e8;
+    padding-left: 13px;
+}
+.stu_info_title p{
+    font-size: 20px;
+}
+.stu_info_content p{
+    font-size: 16px;
+    margin-top: 20px;
+}
+.stu_img{
+    font-size: 18px;
+    width: 90%;
+    height: 10%;
+    margin: 10px auto;
+}
+.img_box1, .img_box2, .img_box3{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    width: 80%;
+    height: 300px;
+    
+}
+.img_box4{
+    margin-top: 10px;
+    width: 90%;
+    height: 500px;
+}

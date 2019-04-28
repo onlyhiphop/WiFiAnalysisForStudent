@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+<mapper namespace="cn.edu.dao.AddrTimeDao">
+
+    <select id="getAddrMonthDataByIdMonth" resultType="AddrTimeBean">
+        SELECT * FROM addr_${year}_${month} WHERE mac = #{mac}
+    </select>
+
+</mapper>
