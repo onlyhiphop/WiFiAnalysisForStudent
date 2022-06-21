@@ -17,7 +17,7 @@
     <maven.compiler.source>1.7</maven.compiler.source>
     <maven.compiler.target>1.7</maven.compiler.target>
     <hadoop.version>2.7.3</hadoop.version>
-    <mysql-connector.version>5.1.47</mysql-connector.version>
+    <mysql-connector.version>8.0.28</mysql-connector.version>
     <lombok.version>1.18.10</lombok.version>
   </properties>
 
